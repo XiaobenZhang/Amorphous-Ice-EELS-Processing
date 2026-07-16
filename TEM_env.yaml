@@ -1,0 +1,30 @@
+name: TEM
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.24.4
+  - scipy
+  - scikit-image
+  - matplotlib
+  - opencv
+  - tifffile
+  - imageio
+  - h5py
+  - numba
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - cupy
+  - cudatoolkit
+  - pip:
+      - py4dstem
+      - hyperspy
+      - labelme
+      - tqdm
+      - rich
