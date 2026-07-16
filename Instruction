@@ -1,1 +1,9 @@
+Follow the instructions below to process EELS data in EMD format using the provided Python scripts.
 
+Step 1: Download all files from this repository.
+
+Step 2: Set up your Python environment using the TEM_env.yaml file.
+
+Step 3: Run the Jupyter notebook (.ipynb) files sequentially to read the EMD file and extract the EELS spectra.
+
+Step 4: Use Gatan DigitalMicrograph (GMS) to subtract the background from the final exported .msa EELS files for visualization and analysis.
